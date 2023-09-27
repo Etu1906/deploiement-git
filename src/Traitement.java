@@ -16,7 +16,7 @@ public class Traitement extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try {
             PrintWriter out = response.getWriter();
-            out.print("Hello Girls");
+            out.print("Hello my friends");
         } catch (Exception e) {
         }
     }
