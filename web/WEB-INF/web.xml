@@ -8,4 +8,13 @@
         <servlet-name>Traitement</servlet-name>
         <url-pattern>/Traitement</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>File</servlet-name>
+        <servlet-class>servlet.File</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>File</servlet-name>
+        <url-pattern>/File</url-pattern>
+    </servlet-mapping>
 </web-app>
